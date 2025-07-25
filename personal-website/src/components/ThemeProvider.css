@@ -1,0 +1,32 @@
+.theme-dark {
+  background: #232526;
+  color: #f8fafc;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+.theme-light {
+  background: #f8fafc;
+  color: #232526;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+.theme-toggle {
+  position: fixed;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: #a5b4fc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.theme-toggle:hover {
+  background: #facc15;
+  color: #232526;
+} 
